@@ -14,16 +14,4 @@ describe('results', () => {
         expect(method).toHaveTextContent('Request Method:');       
         expect(url).toHaveTextContent('URL:');      
     })
-
-
-
-// import '@testing-library/jest-dom';
-// import { fireEvent, render, screen } from '@testing-library/react';
-// import App from '../App';
-// // import Welcome from '.';
-
-// describe('welcome', () => {
-//     it.todo('loads and displays initial state!', () => {
-//       render(<Welcome)
-//     })
-// })
+  })
