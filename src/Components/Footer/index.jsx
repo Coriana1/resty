@@ -1,5 +1,5 @@
 import './Footer.scss';
 function Footer() {
-  return <footer>&copy; Coriana Williams 2023</footer>;
+  return <footer data-testid="footer" >Coriana Williams 2023</footer>;
 }
 export default Footer;
