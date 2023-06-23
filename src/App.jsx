@@ -37,7 +37,7 @@ async function fetchData(){
     setLoading(true)
     await axios.get(requestParams.url).then((res) => {
       setData(res)
-      setLoading(false)
+      setLoading(false);
       console.log('>>>>>', res)
     })
     .catch((err) => console.log(err))
